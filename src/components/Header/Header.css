@@ -1,0 +1,13 @@
+.header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 14rem;
+    font-size: 2rem;
+}
+
+.header__logo{
+    width: 250px;
+    margin-left: -28rem;
+    
+}

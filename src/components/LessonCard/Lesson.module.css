@@ -1,0 +1,55 @@
+
+
+.container{
+    background: linear-gradient(to left, hsla(229, 59%, 58%, 0.973), #ca6aa2);
+     
+    padding-bottom: 2rem;
+    border-radius: 20px;
+    color: white;
+    width: 80vw;
+    margin: 0 auto;
+}
+
+.lessonCard__Header{
+    text-align: center;
+    padding: 1rem;
+    font-size: 3rem;
+}
+
+.container__body{
+    display:grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;    
+}
+
+.container__Button{
+    text-align: center;
+    margin: 1rem;
+    margin-top: 5rem;
+}
+
+button{
+    width: 20vw;
+    padding: 1rem;
+    border: none;
+    border-radius: 30px;
+    color: white;
+    font-size: 1.4rem;
+    background-color: rgba(52, 107, 224, 0.863);
+}
+.lessonCard{   
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
+    align-items: center;
+    padding-left: 4rem;   
+    gap: 1rem;
+    font-size: 1.5rem;
+}
+
+.lessonCard1__image{
+        border-radius: 10px;
+}
+img{
+    width: 100px; 
+}
